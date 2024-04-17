@@ -1,0 +1,29 @@
+.datos{
+    margin-top:20px;
+    width:400px;
+    border:2px solid black;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.centrado{
+    border:0px solid black;
+    border:2px solid black;
+}
+
+h3{
+    font-size:18px;
+    margin-left:7px;
+    background:white;
+}
+        .contenedor {
+            width: 80%; 
+            margin: 0 auto; 
+            text-align: center;
+        }
+        .tabla {
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin-right: 20px; 
+            float: left; 
+        }
