@@ -47,13 +47,13 @@
                         out.println(seminario + "<br>");
                     }
                 } else {
-                    out.println("No hay seminarios seleccionados");
+                    out.println("No ha seleccionado ningun seminario");
                 }
             %>
         </td>
         <td><a href="MainServlet?op=editar&id=<%= item.getId()%>">Editar</a></td>
         <td><a href="MainServlet?op=eliminar&id=<%= item.getId()%>"
-               onclick='return confirm("¿Está seguro/a de eliminar el registro?");'>Eliminar</a></td>
+               onclick='return confirm("¿Está seguro/a que quiere eliminar el registro?");'>Eliminar</a></td>
     </tr>
     <%
             }
